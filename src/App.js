@@ -1,3 +1,4 @@
+import React from "react"
 import './App.css';
 import Card from './Card.js';
 import Card2 from './Card2.js';
