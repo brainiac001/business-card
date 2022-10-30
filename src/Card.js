@@ -1,10 +1,9 @@
 import React from "react"
 export default function Card() {
     return (
-        <div>
             <div className="cardBase">
                 <div className="cardContainer">
-                    <div class="profile-image-div">
+                    <div className="profile-image-div">
                     </div>
                     <div className="white">
                         <h3>Damilare Joshua</h3>
@@ -13,13 +12,13 @@ export default function Card() {
                         <div className="btn-row row">
                             <a href="mailto:oluwadamilareidowujoshua@gmail.com" className="col">
                                 <button className="bg-white">
-                                    <a className="fa fa-btn fa-envelope"></a>
+                                    <a className="fa fa-btn fa-envelope" href="mailto:oluwadamilareidowujoshua@gmail.com"></a>
                                     Email
                                 </button>
                             </a>
                             <a href="https://www.linkedin.com/in/oluwadamilare-joshua-b90068149/" className="col">
                                 <button className="bg-blue">
-                                    <a className="fab fa-btn fa-linkedin white"></a>
+                                    <a className="fab fa-btn fa-linkedin white" href="https://www.linkedin.com/in/oluwadamilare-joshua-b90068149/"></a>
                                     LinkedIn
                                 </button>
                             </a>
@@ -32,13 +31,12 @@ export default function Card() {
                         </div>
                     </div>
                     <div className="profile-bottom">
-                        <a href="https://twitter.com/Idowu1413" class="fab fa-twitter-square"></a>
-                        <a href="https://web.facebook.com/OluwadamilareIdowuJoshua/photos_by" class="fab fa-facebook-square"></a>
-                        <a href="https://www.instagram.com/soft_doch/" class="fab fa-instagram-square"></a>
-                        <a href="https://github.com/brainiac001" class="fab fa-github-square"></a>
+                        <a href="https://twitter.com/Idowu1413" className="fab fa-twitter-square"></a>
+                        <a href="https://web.facebook.com/OluwadamilareIdowuJoshua/photos_by" className="fab fa-facebook-square"></a>
+                        <a href="https://www.instagram.com/soft_doch/" className="fab fa-instagram-square"></a>
+                        <a href="https://github.com/brainiac001" className="fab fa-github-square"></a>
                     </div>
                 </div>
             </div>
-        </div>
     )
 }

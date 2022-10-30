@@ -1,5 +1,6 @@
 import React from "react"
 import './App.css';
+import './fontawesome-free-6.2.0/css/all.css';
 import Card from './Card.js';
 import Card2 from './Card2.js';
 
